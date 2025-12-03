@@ -4,41 +4,45 @@
 
 ## 1. Project Setup
 
-* [ ] Create project root structure
-* [ ] Create `/frontend`, `/backend`, `/docker`
-* [ ] Initialize Git repository
+* [x] Create project root structure
+* [x] Create `/frontend`, `/backend`, `/docker`
+* [x] Initialize Git repository
 
 ## 2. SPA Base (TypeScript)
 
-* [ ] Install Vite or esbuild
-* [ ] Create `index.html`
-* [ ] Create `/frontend/src` structure:
+* [x] Install Vite or esbuild
+* [x] Create `index.html`
+* [x] Create `/frontend/src` structure:
 
-  * [ ] `main.ts`
-  * [ ] `router.ts`
-  * [ ] `pages/home.ts`
-  * [ ] `pages/game.ts`
-  * [ ] `pages/tournament.ts`
-* [ ] Implement SPA router (pushState + popstate)
-* [ ] Ensure Back/Forward buttons work
-* [ ] Test in Firefox (latest)
+  * [x] `main.ts` (app.ts)
+  * [x] `router.ts` (in app.ts)
+  * [x] `pages/home.ts` (login.ts)
+  * [x] `pages/game.ts` (game_frontend.ts)
+  * [x] `pages/tournament.ts` (setup_game.ts)
+* [x] Implement SPA router (hash-based routing)
+* [x] Multi-view navigation system (/home, /play, /1v1, /game, /profile, /history)
+* [x] Ensure Back/Forward buttons work
+* [x] Test in Firefox (latest)
 
 ## 3. Local Pong Game
 
-* [ ] Implement GameEngine class
-* [ ] Render using `<canvas>`
-* [ ] Add paddles, ball, collisions
-* [ ] Add 2-player local controls (W/S + Up/Down)
-* [ ] Ensure equal paddle speed
-* [ ] Add score UI + winner detection
+* [x] Implement GameEngine class
+* [x] Render using `<canvas>`
+* [x] Add paddles, ball, collisions
+* [x] Add 2-player local controls (W/S + Up/Down)
+* [x] Ensure equal paddle speed
+* [x] Add score UI + winner detection
+* [x] Enhanced visual rendering with gradients and subtle effects
+* [x] Professional dark theme styling
+* [x] Smooth game animations and effects
 
 ## 4. Tournament System
 
-* [ ] Create alias input page
-* [ ] Store players in JS array
-* [ ] Auto-generate match order
+* [x] Create alias input page
+* [x] Store players in JS array
+* [x] Auto-generate match order
 * [ ] Display upcoming match
-* [ ] “Start match” → open Pong game
+* [ ] "Start match" → open Pong game
 * [ ] Update tournament after each match
 * [ ] Display final winner
 
@@ -56,23 +60,25 @@
 
 ## 6. Docker Environment
 
-* [ ] Dockerfile for frontend (nginx or Caddy)
-* [ ] Dockerfile for backend (Node/Fastify)
-* [ ] docker-compose.yml
-* [ ] Single command launch: `docker-compose up`
-* [ ] Containers:
+* [x] Dockerfile for frontend (nginx or Caddy)
+* [x] Dockerfile for backend (Node/Fastify)
+* [x] docker-compose.yml
+* [x] Single command launch: `docker-compose up`
+* [x] Containers:
 
-  * [ ] frontend
-  * [ ] backend
-  * [ ] nginx reverse proxy
+  * [x] frontend
+  * [x] backend
+  * [x] nginx reverse proxy
 
 ## 7. Reverse Proxy (nginx)
 
-* [ ] Serve SPA (`/`)
-* [ ] Proxy `/api` → backend
+* [x] Serve SPA (`/`)
+* [x] Proxy `/login_service/` → login backend
+* [x] Proxy `/game_service/` → game backend
+* [x] Service routing working for microservices
 * [ ] Proxy `/ws` → backend (WebSockets)
 * [ ] Configure HTTPS
-* [ ] Configure WSS upgrade headers
+* [x] Configure WSS upgrade headers
 * [ ] Add security headers:
 
   * [ ] Content-Security-Policy
@@ -85,12 +91,12 @@
 
 ## 8. Backend Framework (Fastify) — Major
 
-* [ ] Initialize Fastify project
-* [ ] Add routes:
+* [x] Initialize Fastify project
+* [x] Add routes:
 
-  * [ ] `/auth/register`
-  * [ ] `/auth/login`
-  * [ ] `/user/me`
+  * [x] `/auth/register` (createAccount)
+  * [x] `/auth/login` (loginAccount)
+  * [x] `/user/me` (auth/me)
   * [ ] `/user/update`
   * [ ] `/user/avatar`
   * [ ] `/friends/*`
@@ -100,35 +106,39 @@
 
 ## 9. Database (SQLite) — Minor
 
-* [ ] Add `database.db`
-* [ ] Add migrations:
+* [x] Add `database.db`
+* [x] Add migrations:
 
-  * [ ] users
-  * [ ] matches
+  * [x] users
+  * [x] matches (game_sessions)
   * [ ] stats
   * [ ] friends
   * [ ] settings
 * [ ] Create DB wrapper for prepared statements
-* [ ] Test CRUD operations
+* [x] Test CRUD operations
 
 ## 10. Standard User Management — Major
 
 ### Backend
 
-* [ ] Register (hashed passwords)
-* [ ] Login (session/JWT)
+* [x] Register (hashed passwords)
+* [x] Login (session/JWT)
 * [ ] Update profile
 * [ ] Avatar upload
 * [ ] Online/offline tracking
 * [ ] Friends system
-* [ ] Match history table
-* [ ] Protect authenticated routes
+* [x] Match history table
+* [x] Protect authenticated routes
 
 ### Frontend
 
-* [ ] Registration page
-* [ ] Login page
-* [ ] Profile page
+* [x] Registration page
+* [x] Login page
+* [x] Profile page
+* [x] 1v1 Match setup page
+* [x] Game lobby page
+* [x] Enhanced UI with modern dark theme
+* [x] Responsive button styling and navigation
 * [ ] Friend list
 * [ ] Match history UI
 

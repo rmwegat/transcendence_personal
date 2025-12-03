@@ -1,0 +1,237 @@
+ft_transcendence Surprise.
+is essential to understand its principles and implications, especially regarding user
+data management and privacy. The GDPR is a regulation that aims to protect the
+personal data and privacy of individuals within the European Union (EU) and the
+European Economic Area (EEA). It sets out strict rules and guidelines for organi-
+zations on how they should handle and process personal data.
+To gain a better understanding of the GDPR and its requirements, it is strongly
+recommended to visit the official website of the European Commission on data
+protection1. This website provides comprehensive information about the GDPR,
+including its principles, objectives, and user rights. It also offers additional re-
+sources to delve deeper into the topic and ensure compliance with the regulation.
+If you are unfamiliar with the GDPR, please take the time to visit the provided link
+and familiarize yourself with the regulations before proceeding with this project.
+• Major module: Implement Two-Factor Authentication (2FA) and JWT.
+The goal of this major module is to enhance security and user authentication
+by introducing Two-Factor Authentication (2FA) and utilizing JSON Web Tokens
+(JWT). Key features and objectives include:
+◦ Implement Two-Factor Authentication (2FA) as an additional layer of security
+for user accounts, requiring users to provide a secondary verification method,
+such as a one-time code, in addition to their password.
+◦ Utilize JSON Web Tokens (JWT) as a secure method for authentication and
+authorization, ensuring that user sessions and access to resources are managed
+securely.
+◦ Provide a user-friendly setup process for enabling 2FA, with options for SMS
+codes, authenticator apps, or email-based verification.
+◦ Ensure that JWT tokens are issued and validated securely to prevent unau-
+thorized access to user accounts and sensitive data.
+This major module aims to strengthen user account security by offering Two-Factor
+Authentication (2FA) and enhancing authentication and authorization through the
+use of JSON Web Tokens (JWT).
+1https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en
+23
+ft_transcendence Surprise.
+V.7 Devops
+These modules focus on enhancing the project’s infrastructure and architecture. The
+major modules address infrastructure setup for efficient log management using ELK
+(Elasticsearch, Logstash, Kibana), designing the backend as microservices for flexibil-
+ity and scalability, and implementing Prometheus/Grafana for comprehensive system
+monitoring.
+• Major module: Infrastructure Setup with ELK (Elasticsearch, Logstash, Kibana)
+for Log Management.
+The objective of this major module is to establish a robust infrastructure for log
+management and analysis using the ELK stack (Elasticsearch, Logstash, Kibana).
+Key features and goals include:
+◦ Deploy Elasticsearch to efficiently store and index log data, ensuring it is easily
+searchable and accessible.
+◦ Configure Logstash to collect, process, and transform log data from various
+sources, sending it to Elasticsearch.
+◦ Set up Kibana for visualizing log data, creating dashboards, and generating
+insights from log events.
+◦ Define data retention and archiving policies to manage log data storage effec-
+tively.
+◦ Implement security measures to protect log data and access to the ELK stack
+components.
+This major module aims to establish a powerful log management and analysis sys-
+tem using the ELK stack, enabling effective troubleshooting, monitoring, and in-
+sights into the system’s operation and performance.
+• Minor module: Monitoring system.
+The goal of this minor module is to set up a comprehensive monitoring system using
+Prometheus and Grafana . Key features and goals include:
+◦ Deploy Prometheus as the monitoring and alerting toolkit to collect metrics
+and monitor the health and performance of various system components.
+◦ Configure data exporters and integrations to capture metrics from different
+services, databases, and infrastructure components.
+◦ Create custom dashboards and visualizations using Grafana to provide real-
+time insights into system metrics and performance.
+◦ Set up alerting rules in Prometheus to proactively detect and respond to
+critical issues and anomalies.
+◦ Ensure proper data retention and storage strategies for historical metrics data.
+◦ Implement secure authentication and access control mechanisms for Grafana
+to protect sensitive monitoring data.
+24
+ft_transcendence Surprise.
+This minor module aims to establish a robust monitoring infrastructure using
+Prometheus and Grafana , enabling real-time visibility into system metrics and
+proactive issue detection for improved system performance and reliability.
+• Major module: Designing the Backend as Microservices.
+The goal of this major module is to architect the backend of the system using a
+microservices approach. Key features and objectives include:
+◦ Divide the backend into smaller, loosely-coupled microservices, each responsi-
+ble for specific functions or features.
+◦ Define clear boundaries and interfaces between microservices to enable inde-
+pendent development, deployment, and scaling.
+◦ Implement communication mechanisms between microservices, such as REST-
+ful APIs or message queues, to facilitate data exchange and coordination.
+◦ Ensure that each microservice is responsible for a single, well-defined task or
+business capability, promoting maintainability and scalability.
+This major module aims to enhance the system’s architecture by adopting a mi-
+croservices design approach, enabling greater flexibility, scalability, and maintain-
+ability of the backend components.
+25
+ft_transcendence Surprise.
+V.8 Graphics
+• Major module: Implementing Advanced 3D Techniques
+This major module,"Graphics," focuses on enhancing the visual aspects of the Pong
+game. It introduces the use of advanced 3D techniques to create a more immersive
+gaming experience. Specifically, the Pong game will be developed using Babylon.js
+to achieve the desired visual effects.
+◦ Advanced 3D Graphics: The primary goal of this module is to implement
+advanced 3D graphics techniques to elevate the visual quality of the Pong
+game. By utilizing Babylon.js , the goal is to create stunning visual effects
+that immerse players in the gaming environment.
+◦ Immersive Gameplay: The incorporation of advanced 3D techniques enhances
+the overall gameplay experience by providing users with a visually engaging
+and captivating Pong game.
+◦ Technology Integration: The chosen technology for this module is Babylon.js .
+These tools will be used to create the 3D graphics, ensuring compatibility and
+optimal performance.
+This major module aims to revolutionize the Pong game’s visual elements by intro-
+ducing advanced 3D techniques. Through the use of Babylon.js , we aim to provide
+players with an immersive and visually stunning gaming experience.
+26
+ft_transcendence Surprise.
+V.9 Accessibility
+These modules are designed to enhance the accessibility of our web application, with a
+focus on ensuring compatibility across all devices, expanding browser support, offering
+multi-language capabilities, providing accessibility features for visually impaired users,
+and integrating Server-Side Rendering (SSR) for improved performance and user experi-
+ence.
+• Minor module: Support on all devices.
+In this module, the main focus is to ensure that your website works seamlessly on
+all types of devices. Key features and objectives include:
+◦ Ensure the website is responsive, adapting to different screen sizes and orien-
+tations, providing a consistent user experience on desktops, laptops, tablets,
+and smartphones.
+◦ Ensure that users can easily navigate and interact with the website using
+different input methods, such as touchscreens, keyboards, and mice, depending
+on the device they are using.
+This module aims to provide a consistent and user-friendly experience on all devices,
+maximizing accessibility and user satisfaction.
+• Minor module: Expanding Browser Compatibility.
+In this minor module, the objective is to enhance the compatibility of the web
+application by adding support for an additional web browser. Key features and
+objectives include:
+◦ Extend browser support to include an additional web browser, ensuring that
+users can access and use the application seamlessly.
+◦ Conduct thorough testing and optimization to ensure that the web application
+functions correctly and displays correctly in the newly supported browser.
+◦ Address any compatibility issues or rendering discrepancies that may arise in
+the added web browser.
+◦ Ensure a consistent user experience across all supported browsers, maintaining
+usability and functionality.
+This minor module aims to broaden the accessibility of the web application by
+supporting an additional web browser, providing users with more choices for their
+browsing experience.
+• Minor module: Multiple language support.
+In this minor module, the objective is to ensure that your website supports multiple
+languages to cater to a diverse user base. Key features and goals include:
+◦ Implement support for a minimum of three languages on the website to ac-
+commodate a broad audience.
+27
+ft_transcendence Surprise.
+◦ Provide a language switcher or selector that allows users to easily change the
+website’s language based on their preferences.
+◦ Translate essential website content, such as navigation menus, headings, and
+key information, into the supported languages.
+◦ Ensure that users can navigate and interact with the website seamlessly, re-
+gardless of the selected language.
+◦ Consider using language packs or localization libraries to simplify the transla-
+tion process and maintain consistency across different languages.
+◦ Allow users to set their preferred language as the default for subsequent visits.
+This minor module aims to enhance the accessibility and inclusivity of your website
+by offering content in multiple languages, making it more user-friendly for a diverse
+international audience.
+• Minor module: Add accessibility for Visually Impaired Users.
+In this minor module, the goal is to make your website more accessible for visually
+impaired users. Key features include:
+◦ Support for screen readers and assistive technologies.
+◦ Clear and descriptive alt text for images.
+◦ High-contrast color scheme for readability.
+◦ Keyboard navigation and focus management.
+◦ Options for adjusting text size.
+◦ Regular updates to meet accessibility standards.
+This module aims to improve the website’s usability for individuals with visual
+impairments and ensure compliance with accessibility standards.
+• Minor module: Server-Side Rendering (SSR) Integration.
+In this minor module, the focus is on integrating Server-Side Rendering (SSR)
+to enhance the performance and user experience of your website. Key objectives
+include:
+◦ Implement SSR to improve the website’s loading speed and overall perfor-
+mance.
+◦ Ensure that content is pre-rendered on the server and delivered to users’
+browsers for faster initial page loads.
+◦ Optimize SEO by providing search engines with pre-rendered HTML content.
+◦ Maintain a consistent user experience while benefiting from the advantages of
+SSR.
+This module aims to boost website performance and SEO by integrating Server-Side
+Rendering for faster page loads and improved user experience.
+28
+ft_transcendence Surprise.
+V.10 Server-Side Pong
+• Major module: Replace Basic Pong with Server-Side Pong and Implementing an
+API.
+In this major module, the goal is to replace the basic Pong game with a server-
+side Pong game, accompanied by the implementation of an API. Key features and
+objectives include:
+◦ Develop server-side logic for the Pong game to handle gameplay, ball move-
+ment, scoring, and player interactions.
+◦ Create an API that exposes the necessary resources and endpoints to interact
+with the Pong game, allowing partial usage of the game via the Command-Line
+Interface (CLI) and web interface.
+◦ Design and implement the API endpoints to support game initialization, player
+controls, and game state updates.
+◦ Ensure that the server-side Pong game is responsive, providing an engaging
+and enjoyable gaming experience.
+◦ Integrate the server-side Pong game with the web application, allowing users
+to play the game directly on the website.
+This major module aims to elevate the Pong game by migrating it to the server
+side, enabling interaction through both a web interface and CLI while offering an
+API for easy access to game resources and features.
+• Major module: Enabling Pong Gameplay via CLI against Web Users with API
+Integration.
+In this major module, the goal is to develop a Command-Line Interface (CLI) that
+allows users to play Pong against players using the web version of the game. The
+CLI should connect to the web application seamlessly, enabling CLI users to join
+and interact with web players. Key features and objectives include:
+◦ Create a robust CLI application that replicates the Pong gameplay experience
+available on the website, providing CLI users with the ability to initiate and
+participate in Pong matches.
+◦ Utilize the API to establish communication between the CLI and the web
+application, enabling CLI users to connect to the site and interact with web
+players.
+◦ Develop a user authentication mechanism within the CLI, allowing CLI users
+to log in to the web application securely.
+◦ Implement real-time synchronization between the CLI and web users, ensuring
+that gameplay interactions are seamless and consistent.
+◦ Enable CLI users to join and create Pong matches with web players, facilitating
+cross-platform gameplay.
+29
+ft_transcendence Surprise.
+◦ Provide comprehensive documentation and guidance on how to use the CLI
+effectively for Pong matches against web users.
+This major module aims to enhance the Pong gaming experience by creating a CLI
+that seamlessly connects CLI users to web players through API integration, offering
+a unified and interactive gameplay environment.
+If you wish to complete this module, we strongly recommend that you
+do the previous one.
